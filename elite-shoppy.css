@@ -1,0 +1,143 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.navbar1{
+    weight:100%;
+    height:5vh;
+    background-color:black ;   
+}
+.ul1{
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    text-align: center;
+    list-style: none;
+    padding:5px; 
+}
+
+.ul1 i{
+    color:aqua;
+}
+.left{
+    font-size: large;
+}
+li{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: small;
+}
+.navbar2{
+    weight:100%;
+    height: 16vh;
+    background-color:white ;
+    text-align: center;
+}
+.ul2{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.fa-square-facebook{
+    color: rgb(9, 9, 104);
+    padding: 5px;
+}
+.fa-square-twitter{
+    color:blue
+   padding:5px;
+}
+.fa-linkedin{
+    color: rgb(202, 1, 1);
+    padding: 5px;
+}
+.fa-square-instagram{ 
+    color:orange;
+    padding: 4px;
+}
+.ul2 li button{
+    padding:1px 3px;
+    border-color: aqua;
+}
+.navbar3{
+    weight:100%;
+    height:11vh;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ul3 li button{
+    padding: 20px 30px;
+}
+.ul3 li{
+    font-size: 18px;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+    width:170px;
+    line-height: 45px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 50px;
+    text-align: center;
+    float: left;   
+    
+}
+.ul3 li :hover{
+    background-color:white;
+}
+.ul3 li a{
+   text-decoration: none;
+   color:white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.text{
+    background-image: url(Eliteshoppy.jpg);
+    background-size: cover;
+    height: 80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.text h1{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:white;
+    letter-spacing: 20px;
+    font-family: monospace;
+    
+}
+.text h2{font-size: 50px;
+    color:aqua;
+    letter-spacing: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.text p{
+
+    font-size: x-large;
+    color:rgb(253, 183, 5);
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+.text button {
+    font-size: large;
+    padding:5px 10px;
+    border: none;   
+}
+button a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+button a:hover{
+    color:black;
+}
+
+
